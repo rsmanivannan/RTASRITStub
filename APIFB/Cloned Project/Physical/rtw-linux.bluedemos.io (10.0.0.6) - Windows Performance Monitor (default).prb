@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1582048563183" createdUser="sysadmin" id="4db6b240:170596fe365:-7e20" selfDescribing="rtw-linux.bluedemos.io (10.0.0.6) - Windows Performance Monitor (default)" type="probe_resource" updatedTimestamp="1582048563183" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="4db6b240:170596fe365:-7e27" probeID="ghviewer.plugin.perfmon">
+      <PerfMonDatasource configuration="default"/>
+   </resourceConfig>
+</editableResource>

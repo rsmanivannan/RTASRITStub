@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1582048563177" createdUser="sysadmin" id="4db6b240:170596fe365:-7e21" selfDescribing="rtw-linux.bluedemos.io (10.0.0.6) - System Statistics (default)" type="probe_resource" updatedTimestamp="1582048563177" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="4db6b240:170596fe365:-7e27" probeID="plugin.custom.SysStat">
+      <SysStatDatasource allProcesses="true" configuration="default"/>
+   </resourceConfig>
+</editableResource>
