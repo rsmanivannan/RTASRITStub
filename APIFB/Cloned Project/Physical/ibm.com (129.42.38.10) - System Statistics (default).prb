@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1579179147797" createdUser="sysadmin" id="-35556371:16fae671a2c:-7e7f" selfDescribing="ibm.com (129.42.38.10) - System Statistics (default)" type="probe_resource" updatedTimestamp="1579179147797" updatedUser="sysadmin" version="1.0">
-   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-   <resourceConfig defaultFlag="true" name="default" physicalResourceID="-35556371:16fae671a2c:-7e8d" probeID="plugin.custom.SysStat">
-      <SysStatDatasource allProcesses="true" configuration="default"/>
-   </resourceConfig>
-</editableResource>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1582052220489" createdUser="sysadmin" id="-23e69c27:17059a857ab:-7ea1" selfDescribing="api" syncSourceDetails="7550d8ce:16f98c39cbb:-7f6a" type="swagger_definition" updatedTimestamp="1582052220508" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig locationtype="102">
+      <locationURI>https://10.0.0.6:5443/RTCP/examples/phonebook/api/swagger.json</locationURI>
+   </resourceConfig>
+</editableResource>

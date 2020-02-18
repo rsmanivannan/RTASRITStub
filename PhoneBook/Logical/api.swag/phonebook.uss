@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1582052221777" createdUser="sysadmin" id="-23e69c27:17059a857ab:-7ea1:-1028583081:-332410441" selfDescribing="phonebook" type="parameterized_url_schema" updatedTimestamp="1582052221777" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="1582052221436" lastSynced="1582052221777" sourceid="-23e69c27:17059a857ab:-7ea1"/>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig schemaSourceTemplateName="URL">
+      <schemaSourceConfig name="phonebook">
+         <url templateName="create">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="RTCP" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="examples" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="phonebook" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="api" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+         </url>
+         <url templateName="queryPhonebook">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="RTCP" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="examples" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="phonebook" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="api" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <query isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="title" queryName="title" type="7"/>
+            <query isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="firstname" queryName="firstname" type="7"/>
+            <query isNameValuePair="true" isParameterized="true" isRequired="false" literalValue="" parameterName="lastname" queryName="lastname" type="7"/>
+         </url>
+         <url templateName="deleteEntry">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="RTCP" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="examples" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="phonebook" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="api" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="id" type="7"/>
+         </url>
+         <url templateName="getEntry">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="RTCP" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="examples" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="phonebook" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="api" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="id" type="7"/>
+         </url>
+         <url templateName="update">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="RTCP" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="examples" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="phonebook" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="api" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="id" type="7"/>
+         </url>
+      </schemaSourceConfig>
+   </resourceConfig>
+</editableResource>

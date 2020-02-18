@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1582048561964" createdUser="sysadmin" id="4db6b240:170596fe365:-7e27" selfDescribing="rtw-linux.bluedemos.io (10.0.0.6)" type="host_machine_resource" updatedTimestamp="1582048561964" updatedUser="sysadmin" version="1.0">
-   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-   <resourceConfig host_address="10.0.0.6" user_host_name="rtw-linux.bluedemos.io">
-      <roles>
-         <identity name="ssh" port="22"/>
-      </roles>
-   </resourceConfig>
-</editableResource>
