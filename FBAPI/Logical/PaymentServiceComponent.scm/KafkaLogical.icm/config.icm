@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1578816043138" createdUser="manoranjansaho" id="7550d8ce:16f98c39cbb:-7ec0" type="infrastructure_component_resource" updatedTimestamp="1579167173797" updatedUser="sysadmin" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="kafka_transport">
+      <recordingSettings Topic=".*" colour="167,250,230" isPattern="true"/>
+   </resourceConfig>
+</editableResource>

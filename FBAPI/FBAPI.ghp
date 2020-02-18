@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><_c buildID="I20191203_1447" certificateAuthority="KEY_1024_BITS" comments="Project created on February 18, 2020" creationVersion="10.0.2" domain="VBooking" extDocPrefix="Manistu@123" name="FBAPI" owner="sysadmin" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000170-5998-60be-0000-00adaa971a73">
+   <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+   <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+   <serverSettings ghRepositoryURL="https://10.0.0.6:5443/RTCP" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!047f" trustStorePath="">
+      <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!71af6A7640F2214D7E4012934AC54464E353" recordFilters="" url="jdbc:db2://10.0.0.6:50000/RESULTDB" useSsl="false" user="db2inst1 ">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!b790" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="db2inst1 " storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+            <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
+         </connectionParams>
+      </dbConnectionParameters>
+      <automationServer enabled="false" hostname="" port="443" projectId="-1" projectName="--No Project Selected--" publishResults="false" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!5629" trustStorePath=""/>
+   </serverSettings>
+   <permissionsSettings autoLogin="true" host="US-PNP-DC03" permFactId="ldap.permissions.factory.none" port="389" pswd="0CA++3gHq9soYaaAfFQD98S7msUNcrmXDaoHRkDCMNU=$hjkd+fuNLypv/JyvEXrN3x2G+QQQ8vlDsZdv5ypBcno="/>
+   <resultPublishers disableAll="false"/>
+</_c>
