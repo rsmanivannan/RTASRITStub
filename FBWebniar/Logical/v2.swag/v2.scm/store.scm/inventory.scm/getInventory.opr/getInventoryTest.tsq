@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584099123625" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7a9d" type="test_resource" updatedTimestamp="1584099637297" updatedUser="sysadmin" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584099123625" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7a9d" type="test_resource" updatedTimestamp="1584106928485" updatedUser="sysadmin" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
@@ -119,19 +119,24 @@
          <editableResource id="-25fc5cd5:170d399d4bf:-7a97" selfDescribing="Receive and validate a response to the request you have sent." type="receive_reply_action" version="1.1">
             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
             <resourceConfig description="" formatter="HTTP_Message" name="&quot;Text&quot; using schema &quot;Text&quot;" sendRequestID="-25fc5cd5:170d399d4bf:-7a9b" transport="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756">
-               <headerMessage type="12" version="1.2">
+               <headerMessage assocdefid="Http Receive Reply" meTy="Message" name="" sch="Http Receive Reply" type="12" version="1.2">
                   <fieldActionGroup>
                      <fieldAction enabled="false" type="1">
                         <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
                      </fieldAction>
                   </fieldActionGroup>
-                  <_c name="httpDetails" type="12" version="1.2">
+                  <_c meTy="String" name="StatusCode" sch="Http Receive Reply" type="7" version="1.2"/>
+                  <_c meTy="String" name="ReasonPhrase" sch="Http Receive Reply" type="7" version="1.2"/>
+                  <_c meTy="String" name="MessageType" sch="Http Receive Reply" type="7" version="1.2"/>
+                  <_c meTy="Date-Time" name="rcvdTimestamp" sch="Http Receive Reply" type="11" version="1.2"/>
+                  <_c meTy="Message" name="httpDetails" sch="Http Receive Reply" type="12" version="1.2">
                      <fieldActionGroup>
                         <fieldAction enabled="false" type="1">
                            <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
                         </fieldAction>
                      </fieldActionGroup>
-                     <_c name="httpHeaders" type="12" version="1.2">
+                     <_c meTy="String" name="Version" sch="Http Receive Reply" type="7" version="1.2"/>
+                     <_c meTy="Message" name="httpHeaders" sch="Http Receive Reply" type="12" version="1.2">
                         <fieldActionGroup>
                            <fieldAction enabled="false" type="1">
                               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
@@ -140,11 +145,11 @@
                      </_c>
                   </_c>
                </headerMessage>
-               <subconfig MessageType="http.text.message.type" URL="" _version="1.1" allowSubPath="false" consumerType="Participate" filterHeaders="false" filterMethod="false" filterResourcePath="false" formatter="HTTP_Message" transport="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756"/>
+               <subconfig MessageType="http.text.message.type" _version="1.1" formatter="HTTP_Message" transport="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756"/>
                <bodyMessage assocdefid="Text" name="Text" sch="Text" type="12" version="1.2">
                   <fieldActionGroup>
-                     <fieldAction type="1">
-                        <fieldAction anyOrder="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
                      </fieldAction>
                   </fieldActionGroup>
                   <_c coreTypeInt="7" coreTypeName="String" name="text" nodeFormatter="JSON.nodeformatter" sch="Text" type="12" version="1.2">
