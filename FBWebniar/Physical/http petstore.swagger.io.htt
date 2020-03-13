@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584099059864" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7c49:-114729449:1544155186" selfDescribing="http petstore.swagger.io" type="http_transport" updatedTimestamp="1584099059864" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="PHYSICALHTTPpetstore.swagger.io" lastSynced="1584099059864" sourceid="-25fc5cd5:170d399d4bf:-7c49">
+      <sourcepath path="HTTP"/>
+      <sourcepath path="petstore.swagger.io"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!daee" credPreemptive="false" credType="0" credUser="" httpHost="petstore.swagger.io" httpNtlmDomain="" httpPort="80" httpProxyHost="" httpProxyPassword="#com.ghc.1!617c" httpProxyPort="" httpProxyUsername="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" useSsl="false" version="4">
+         <kerberos Anon="false" CStyle="Username / Password" Conf="false" Custom="true" Enabled="false" Integ="false" MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+         <oauth clientassertion="" clientid="" clientsecret="" enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

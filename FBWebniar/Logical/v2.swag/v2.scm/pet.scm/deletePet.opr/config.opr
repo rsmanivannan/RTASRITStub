@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584099059886" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7c49:-358723724:-807255066" type="operation_resource" updatedTimestamp="1584099059886" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="deletePet" lastSynced="1584099059886" sourceid="-25fc5cd5:170d399d4bf:-7c49">
+      <sourcepath path="paths"/>
+      <sourcepath path="/v2/pet/{petId}"/>
+      <sourcepath path="delete"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig avgTime="0" color="85,150,230" dependencies="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756,-25fc5cd5:170d399d4bf:-7c49:-1129239240:-332410441" invokeDynamicFormatterID="http.text.message.type" invokeEndFormatterID="HTTP_Message" invokeEndTransportID="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756" invokeFormatterID="HTTP_Message" invokeTransportID="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756" maxTime="0" mepEndUsed="true" mepStartSchemaID="-25fc5cd5:170d399d4bf:-7c49:-1129239240:-332410441" mepStartSchemaNodeFormatter="rest_nodeformatter" mepStartSchemaroot="deletePet" mepType="IN_OUT" minTime="0" stubDynamicFormatterID="http.text.message.type" stubFormatterID="HTTP_Message" stubTransportID="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756">
+      <invokeHeaderNode meTy="Message" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="String" name="MessageType" type="7" value="http.text.message.type" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="http.text.message.type" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="Method" type="7" value="DELETE" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="DELETE" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="URL" type="7" value="" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+            <fieldActionGroup>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+               </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="Version" type="7" value="" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                  </fieldAction>
+               </fieldActionGroup>
+               <_c meTy="String" name="Accept" type="7" value="application/json" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="0">
+                        <fieldAction exp="application/json" type="0"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </_c>
+               <_c meTy="Object" name="api_key" type="13" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="0">
+                        <fieldAction type="5"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </_c>
+            </_c>
+            <_c meTy="Boolean" name="followRedirects" type="8" value="true" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction exp="true" type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+         </_c>
+      </invokeHeaderNode>
+      <stubHeaderConfig>
+         <_c MessageType="http.text.message.type" Method="DELETE" URL="/v2/pet/{petId}" consumerType="Participate" filterHeaders="true" filterMethod="true" filterResourcePath="true" template="true">
+            <filterHeadersList>
+               <header disabled="true" name="Accept" type="7" value="application/json"/>
+            </filterHeadersList>
+         </_c>
+      </stubHeaderConfig>
+   </resourceConfig>
+</editableResource>

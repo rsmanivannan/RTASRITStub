@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584099059791" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7c49:-1145079660:408339756" type="infrastructure_component_resource" updatedTimestamp="1584099059791" updatedUser="sysadmin" version="1.1">
+   <syncdetails compare="LOGICALHTTPSpetstore.swagger.io" lastSynced="1584099059791" sourceid="-25fc5cd5:170d399d4bf:-7c49">
+      <sourcepath path="HTTPS"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="http_transport">
+      <recordingSettings colour="65,214,195"/>
+   </resourceConfig>
+</editableResource>

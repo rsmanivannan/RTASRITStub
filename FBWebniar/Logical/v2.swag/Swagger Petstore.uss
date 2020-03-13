@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584099059818" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7c49:-1129239240:-332410441" selfDescribing="Swagger Petstore" type="parameterized_url_schema" updatedTimestamp="1584099059818" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="1584099059184" lastSynced="1584099059818" sourceid="-25fc5cd5:170d399d4bf:-7c49"/>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig schemaSourceTemplateName="URL">
+      <schemaSourceConfig name="Swagger Petstore">
+         <url templateName="deletePet">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="pet" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="petId" type="3"/>
+         </url>
+         <url templateName="updatePetWithForm">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="pet" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="petId" type="3"/>
+         </url>
+         <url templateName="getPetById">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="pet" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="petId" type="3"/>
+         </url>
+         <url templateName="uploadFile">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="pet" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="petId" type="3"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="uploadImage" parameterName="" type="7"/>
+         </url>
+         <url templateName="addPet">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="pet" parameterName="" type="7"/>
+         </url>
+         <url templateName="updatePet">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="pet" parameterName="" type="7"/>
+         </url>
+         <url templateName="findPetsByStatus">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="pet" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="findByStatus" parameterName="" type="7"/>
+            <query isNameValuePair="true" isParameterized="true" isRequired="true" literalValue="" parameterName="status" queryName="status" type="7"/>
+         </url>
+         <url templateName="findPetsByTags">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="pet" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="findByTags" parameterName="" type="7"/>
+            <query isNameValuePair="true" isParameterized="true" isRequired="true" literalValue="" parameterName="tags" queryName="tags" type="7"/>
+         </url>
+         <url templateName="getInventory">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="store" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="inventory" parameterName="" type="7"/>
+         </url>
+         <url templateName="deleteOrder">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="store" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="order" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="orderId" type="3"/>
+         </url>
+         <url templateName="getOrderById">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="store" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="order" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="orderId" type="3"/>
+         </url>
+         <url templateName="placeOrder">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="store" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="order" parameterName="" type="7"/>
+         </url>
+         <url templateName="deleteUser">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="user" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="username" type="7"/>
+         </url>
+         <url templateName="getUserByName">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="user" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="username" type="7"/>
+         </url>
+         <url templateName="updateUser">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="user" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="true" isParameterized="true" isParticipateToExpension="true" literal="" parameterName="username" type="7"/>
+         </url>
+         <url templateName="loginUser">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="user" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="login" parameterName="" type="7"/>
+            <query isNameValuePair="true" isParameterized="true" isRequired="true" literalValue="" parameterName="username" queryName="username" type="7"/>
+            <query isNameValuePair="true" isParameterized="true" isRequired="true" literalValue="" parameterName="password" queryName="password" type="7"/>
+         </url>
+         <url templateName="logoutUser">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="user" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="logout" parameterName="" type="7"/>
+         </url>
+         <url templateName="createUser">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="user" parameterName="" type="7"/>
+         </url>
+         <url templateName="createUsersWithArrayInput">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="user" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="createWithArray" parameterName="" type="7"/>
+         </url>
+         <url templateName="createUsersWithListInput">
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="v2" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="user" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="/" parameterName="" type="7"/>
+            <path isExpandable="false" isParameterized="false" isParticipateToExpension="true" literal="createWithList" parameterName="" type="7"/>
+         </url>
+      </schemaSourceConfig>
+   </resourceConfig>
+</editableResource>

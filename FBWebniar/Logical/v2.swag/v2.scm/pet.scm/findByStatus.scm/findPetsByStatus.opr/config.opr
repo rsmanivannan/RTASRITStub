@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584099059962" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7c49:-1032992042:-807255066" type="operation_resource" updatedTimestamp="1584099059962" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="findPetsByStatus" lastSynced="1584099059962" sourceid="-25fc5cd5:170d399d4bf:-7c49">
+      <sourcepath path="paths"/>
+      <sourcepath path="/v2/pet/findByStatus"/>
+      <sourcepath path="get"/>
+   </syncdetails>
+   <documentation>
+      <description value="Multiple status values can be provided with comma separated strings"/>
+   </documentation>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig avgTime="0" color="200,240,143" dependencies="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756,-25fc5cd5:170d399d4bf:-7c49:-1129239240:-332410441" invokeDynamicFormatterID="http.text.message.type" invokeEndFormatterID="HTTP_Message" invokeEndTransportID="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756" invokeFormatterID="HTTP_Message" invokeTransportID="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756" maxTime="0" mepEndSchemaID="-25fc5cd5:170d399d4bf:-7c49:-1129239240:-1551637993" mepEndSchemaNodeFormatter="JSON.nodeformatter" mepEndSchemaroot="findPetsByStatus_200[Array]" mepEndUsed="true" mepStartSchemaID="-25fc5cd5:170d399d4bf:-7c49:-1129239240:-332410441" mepStartSchemaNodeFormatter="rest_nodeformatter" mepStartSchemaroot="findPetsByStatus" mepType="IN_OUT" minTime="0" stubDynamicFormatterID="http.text.message.type" stubFormatterID="HTTP_Message" stubTransportID="-25fc5cd5:170d399d4bf:-7c49:-1942867259:408339756">
+      <invokeHeaderNode meTy="Message" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="String" name="MessageType" type="7" value="http.text.message.type" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="http.text.message.type" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="Method" type="7" value="GET" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="GET" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="URL" type="7" value="" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+            <fieldActionGroup>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+               </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="Version" type="7" value="" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                  </fieldAction>
+               </fieldActionGroup>
+               <_c meTy="String" name="Accept" type="7" value="application/json" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="0">
+                        <fieldAction exp="application/json" type="0"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </_c>
+            </_c>
+            <_c meTy="Boolean" name="followRedirects" type="8" value="true" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction exp="true" type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+         </_c>
+      </invokeHeaderNode>
+      <stubHeaderConfig>
+         <_c MessageType="http.text.message.type" Method="GET" URL="/v2/pet/findByStatus" allowSubPath="false" consumerType="Participate" filterHeaders="true" filterMethod="true" filterResourcePath="true">
+            <filterHeadersList>
+               <header disabled="true" name="Accept" type="7" value="application/json"/>
+            </filterHeadersList>
+         </_c>
+      </stubHeaderConfig>
+   </resourceConfig>
+</editableResource>

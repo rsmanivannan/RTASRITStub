@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584099060382" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7c49:-1129239240:-1716782310" selfDescribing="swagger" type="form_urlencoded" updatedTimestamp="1584099060382" updatedUser="sysadmin" version="1.0">
+   <syncdetails compare="1584099059186" lastSynced="1584099060382" sourceid="-25fc5cd5:170d399d4bf:-7c49"/>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig schemaSourceTemplateName="form_urlencoded">
+      <schemaSourceConfig sourceType="102" uri="https://petstore.swagger.io/v2/swagger.json">
+         <root allowAdditional="false" id="updatePetWithForm">
+            <element name="name" optional="true"/>
+            <element name="status" optional="true"/>
+         </root>
+      </schemaSourceConfig>
+   </resourceConfig>
+</editableResource>

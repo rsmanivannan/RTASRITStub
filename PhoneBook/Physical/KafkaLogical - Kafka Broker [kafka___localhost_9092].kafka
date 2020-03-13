@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1578816043145" createdUser="manoranjansaho" id="7550d8ce:16f98c39cbb:-7ebf" selfDescribing="KafkaLogical - Kafka Broker [kafka://localhost:9092]" type="kafka_transport" updatedTimestamp="1578820651571" updatedUser="manoranjansaho" version="1.0">
-   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-   <resourceConfig transportName="KafkaLogical" transportTemplateName="kafka">
-      <_c Auth="None" ClientId="API Tester" Host="localhost" Port="9092" ProxyHost="" ProxyPort="" Pwd="#com.ghc.1!fe05" StubMode="DIRECT" StubPort="0" User="" useSsl="false"/>
-   </resourceConfig>
-</editableResource>

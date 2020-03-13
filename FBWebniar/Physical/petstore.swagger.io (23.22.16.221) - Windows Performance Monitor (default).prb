@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584099061829" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7aff" selfDescribing="petstore.swagger.io (23.22.16.221) - Windows Performance Monitor (default)" type="probe_resource" updatedTimestamp="1584099061829" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="-25fc5cd5:170d399d4bf:-7b06" probeID="ghviewer.plugin.perfmon">
+      <PerfMonDatasource configuration="default"/>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584099058129" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7c49" selfDescribing="v2" syncSourceDetails="-25fc5cd5:170d399d4bf:-7f6a" type="swagger_definition" updatedTimestamp="1584099058138" updatedUser="sysadmin" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig locationtype="102">
+      <locationURI>https://petstore.swagger.io/v2/swagger.json</locationURI>
+   </resourceConfig>
+</editableResource>

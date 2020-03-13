@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584098122582" createdUser="sysadmin" id="-25fc5cd5:170d399d4bf:-7ec7" type="infrastructure_component_resource" updatedTimestamp="1584098122582" updatedUser="sysadmin" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="mq_transport">
+      <recordingSettings colour="124,199,255"/>
+   </resourceConfig>
+</editableResource>

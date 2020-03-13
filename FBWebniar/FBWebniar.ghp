@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><_c buildID="I20191203_1447" certificateAuthority="KEY_1024_BITS" comments="Project created on March 13, 2020" creationVersion="10.0.2" domain="VBooking" extDocPrefix="" name="FBWebniar" owner="sysadmin" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000170-d399-d3c9-0000-04c2110c6c4f">
+   <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+      <environmentVariable evdescription="" key="Swagger Petstore/api_key" value="%%API_KEY_ENV_VAR%%"/>
+   </rootEnvironmentConfig>
+   <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+   <serverSettings ghRepositoryURL="https://10.0.0.6:5443/RTCP" trustSource="INBUILT_CA" trustStorePath="">
+      <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!1971" recordFilters="" url="" user="">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!59b7" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+            <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
+         </connectionParams>
+      </dbConnectionParameters>
+      <automationServer enabled="true" hostname="10.0.0.2.nip.io" port="443" projectId="1100" projectName="Webinar" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!7043" trustStorePath=""/>
+   </serverSettings>
+   <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="M79gA2iWe2OouxxUBnaxL1mKSJt4A3pG/S+86rc3Xxk=$uB85JGbIjpThSKqm2y5IkFcM4jOPc7uDQO+NJ0ujVLw="/>
+   <resultPublishers disableAll="false"/>
+</_c>
