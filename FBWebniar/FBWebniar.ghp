@@ -5,13 +5,13 @@
    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
    <serverSettings ghRepositoryURL="https://10.0.0.6:5443/RTCP" trustSource="INBUILT_CA" trustStorePath="">
       <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
-         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!43c60C9A6A4340B3214D7E1D12954ACC4471" recordFilters="" url="jdbc:db2://10.0.0.6:50000/RESULTDB" user="db2inst1">
-            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!90f2" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!c1a5A2CD7263112255700CB36A5940E1210A" recordFilters="" url="jdbc:db2://10.0.0.6:50000/RESULTDB" user="db2inst1">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!b0a8" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
             <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="db2inst1" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
             <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
          </connectionParams>
       </dbConnectionParameters>
-      <automationServer enabled="true" hostname="10.0.0.2.nip.io" port="443" projectId="1100" projectName="Webinar" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!26c5" trustStorePath=""/>
+      <automationServer enabled="true" hostname="10.0.0.2.nip.io" port="443" projectId="1100" projectName="Webinar" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!16d3" trustStorePath=""/>
    </serverSettings>
    <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="M79gA2iWe2OouxxUBnaxL1mKSJt4A3pG/S+86rc3Xxk=$uB85JGbIjpThSKqm2y5IkFcM4jOPc7uDQO+NJ0ujVLw="/>
    <resultPublishers disableAll="false"/>
